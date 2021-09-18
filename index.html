@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home: Download Speed Bazar</title>
+  <link rel="shortcut icon" type="image/png" href="sb_logo.png"/>
+  <meta name="theme-color" content="#3F3476">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+
+<div class="main">
+
+  <img src="screen-shots-images/bg.jpg" alt="img" id="bg_img">
+
+  <div class="content">
+    
+       <div class="menu">
+      <a href="#" id="logo">Speed Bazar</a>
+      <button onclick="toogle_btn()" id="toggle_btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+
+      <ul>
+        <li><a onclick="toogle_btn()" id="toggle_btn2"><i class="fa fa-times-circle" aria-hidden="true"></i></a></li>
+        <li><a href="#" id="active">Home</a></li>
+        <li><a href="#download_box">Download</a></li>
+        <li><a href="#ImportantPages">Important Pages</a></li>
+      </ul>
+    </div>
+
+    <div class="screen_shots">
+      <p><i class="fa fa-picture-o" aria-hidden="true"></i> &nbsp; Screen Shots</p>
+        <div class="images">
+          <img src="s1.jpg" alt="img">
+          <img src="s2.jpg" alt="img">
+          <img src="s3.jpg" alt="img">
+          <img src="s4.jpg" alt="img">
+          <img src="s5.jpg" alt="img">
+        </div>
+      
+    </div>
+
+      <div class="download_apk_box" id="download_box">
+        
+          <div class="Download_app">
+      <p>Download Apk</p>
+      <a href="Speed Bazar.apk">Download Apk&nbsp;&nbsp;<i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></a>
+    </div>
+
+    <div class="Download_app2">
+      <p>Download From PlayStore</p>
+      <label id="hint">We are bringing the app to playstore very soon</label>
+    </div>
+
+      </div>
+
+       <div class="download_apk_box2" id="ImportantPages">
+
+        <p>Important Pages</p><br><br>
+
+        <div class="Download_app">
+      <a href="about_us.html">About Speed Bazar&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    </div>
+    <br>
+    
+        <div class="Download_app">
+      <a href="contact_us.html">Contact Us&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    </div><br>
+    
+          <div class="Download_app">
+      <a href="policy_privacy.html">Policy Privacy&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    </div>
+    <br>
+
+    <div class="Download_app">
+      <a href="term_condition.html">Terms & Conditions&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    </div>
+
+      </div>
+    
+   <p id="watermark">Developed By DevIdeas</p>
+
+   </div>
+</div>
+
+
+<script>
+let menu_ul = document.querySelector('.menu ul');
+
+
+let toggle = false;
+ function toogle_btn(){
+   if (toggle == false) {
+    toggle = true;
+   }else{
+    toggle = false;
+   }
+   menu_ul.classList.toggle('active_menu');
+};
+
+</script>
+ 
+</body>
+</html>
