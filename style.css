@@ -119,9 +119,9 @@ body{
 }
 
 #download_google_play{
-	height: 50px;
-	width: 80px;
-		object-fit: cover;
+    height: 50px;
+    width: auto;
+    object-fit: cover;
 }
 
 .screen_shots{
