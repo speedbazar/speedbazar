@@ -119,8 +119,8 @@ body{
 }
 
 #download_google_play{
-    height: 45px;
-    width: 200px;
+    height: 42px;
+    width: 190px;
     cursor: pointer;
     object-fit: cover;
     margin-top: 15px;
