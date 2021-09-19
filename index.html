@@ -43,15 +43,14 @@
 
       <div class="download_apk_box" id="download_box">
         
-          <div class="Download_app">
+    <div class="Download_app">
       <p>Download Apk</p>
       <a href="SpeedBazar.apk">Download Apk&nbsp;&nbsp;<i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></a>
     </div>
 
     <div class="Download_app2">
       <p>Download From PlayStore</p>
-      <img src="get_playstore.png" id="download_google_play"/>
-      <a href="https://play.google.com/store/apps/details?id=com.rowdystore.speedbazar">Download Apk&nbsp;&nbsp;<i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></a>
+      <img src="get_playstore.png" id="download_google_play onclick="GotoPlayStore()"/>
     </div>
 
       </div>
@@ -94,6 +93,10 @@ let toggle = false;
    }
    menu_ul.classList.toggle('active_menu');
 };
+                    
+function GotoPlayStore(){
+   window.open("https://play.google.com/store/apps/details?id=com.rowdystore.speedbazar");
+}
 
 </script>
  
