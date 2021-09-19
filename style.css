@@ -118,8 +118,11 @@ body{
     background: none;
 }
 
-
-
+#download_google_play{
+	height: 50px;
+	width: 80px;
+		object-fit: cover;
+}
 
 .screen_shots{
 	margin-top: 100px;
